@@ -16,14 +16,17 @@ Aside from that there are edits from the original branch that make it possible t
 -PokeAlarm/Events/MonEvent.py  
 -PokeAlarm/Manager.py  
 
+**compared to the original branch, this enables IVs to work as well as TTH verified info to post via your alarm**
+
+You can see an example here:
+!(https://i.imgur.com/n9ZPGra.png)  
+
 ## How to Install:
 1. brew install python@2 (v2.7 - if you don't have it already)  
 2. pip2.7 install -r requirements.txt --upgrade  
 3. Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).  
 
 That's it! 
-
-
 
 
 ## What exactly is PokeAlarm?
