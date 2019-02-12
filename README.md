@@ -1,4 +1,4 @@
-![PokeAlarm](https://raw.githubusercontent.com/wiki/PokeAlarm/PokeAlarm/images/logo.png)
+![PokeAlarm](https://i.imgur.com/JN85gpz.png)
 [![Discord](https://discordapp.com/api/guilds/215181169761714177/widget.png?style=shield)](https://discord.gg/S2BKC7p)
 [![Donate to original repo](https://img.shields.io/badge/Donate-Patron-orange.svg)](https://www.patreon.com/bePatron?u=5193416)
 ![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
@@ -6,7 +6,7 @@
 
 PokeAlarm is a highly configurable application that filters and relays alerts about PokemonGo to your favorite online service, allowing you to be first to know of any rare spawns or raids.
 
-### Patch Notes - What's in this specific fork?
+### What's in this specific fork?
 Excuse my mess as this is my first fork and really my first git repo I've ever done. 
 This version of PokeAlarm is my own optimized version for RDM and includes some of my current alarms and filter examples that many have asked for (including the great league and ultra league filters). Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:
 -data/base_stats.json
@@ -15,9 +15,9 @@ This version of PokeAlarm is my own optimized version for RDM and includes some 
 -PokeAlarm/Manager.py
 
 ## How to Install:
-1. brew install python@2 (if you don't have it already)
+1. brew install python@2 (v2.7 - if you don't have it already)
 2. pip2.7 install -r requirements.txt --upgrade
-3, Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).
+3. Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).
 
 That's it! 
 
