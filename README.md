@@ -10,16 +10,16 @@ PokeAlarm is a highly configurable application that filters and relays alerts ab
 Excuse my mess as this is my first fork and really my first git repo I've ever done. 
 This version of PokeAlarm is my own optimized version for RDM and includes some of my current alarms and filter examples that many have asked for (including the great league and ultra league filters). 
 
-Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:
--data/base_stats.json
--locales/en.json
--PokeAlarm/Events/MonEvent.py
--PokeAlarm/Manager.py
+Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:  
+-data/base_stats.json  
+-locales/en.json  
+-PokeAlarm/Events/MonEvent.py  
+-PokeAlarm/Manager.py  
 
 ## How to Install:
-1. brew install python@2 (v2.7 - if you don't have it already)
-2. pip2.7 install -r requirements.txt --upgrade
-3. Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).
+1. brew install python@2 (v2.7 - if you don't have it already)  
+2. pip2.7 install -r requirements.txt --upgrade  
+3. Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).  
 
 That's it! 
 
