@@ -1,5 +1,5 @@
 ![PokeAlarm](https://i.imgur.com/JN85gpz.png)
-[![Discord](https://discordapp.com/api/guilds/215181169761714177/widget.png?style=shield)](https://discord.gg/S2BKC7p)
+
 [![Donate to original repo](https://img.shields.io/badge/Donate-Patron-orange.svg)](https://www.patreon.com/bePatron?u=5193416)
 ![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
 ![license](https://img.shields.io/github/license/PokeAlarm/PokeAlarm.svg)
