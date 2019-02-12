@@ -1,0 +1,24 @@
+{
+  "discord_alarm":{
+    "active":true,
+    "type":"discord",
+    "webhook_url": "<discord channel id>",
+    			"startup_message":false,
+	"monsters":{
+					"username":"<form_or_empty> <mon_name>",
+			        "icon_url":"https://websiteURL/<mon_id>.png",
+			        "avatar_url":"https://websiteURL/<mon_id>.png",
+					"title": "<gender> <form_or_empty> <mon_name> in <city>",
+					"url": "<gmaps>",
+					"content": "@everyone",
+					"body": "@everyone UNOWN!!\n\n**STATS** INFO INCOMING..... \n\n---------------- \n**Despawn Time:** <12h_time> (<time_left> remaining) \n**Verified Despawn Time?:** <spawn_verified> \n**Location:** <address> <city> <postal> \n**Map Links:** [[Apple Maps]](<applemaps>) - [[Google Maps]](<gmaps>)",
+					"map":	{
+							"enabled":"true",
+							"width":"250",
+							"height":"125",
+							"maptype":"roadmap",
+							"zoom":"15"
+							}
+			}
+		}
+}

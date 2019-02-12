@@ -1,0 +1,21 @@
+{
+  "raids":{
+          "enabled":true,
+          "defaults":{
+          },
+          "filters":{
+                "Level4":{
+                    "monsters":["Absol", "Tyranitar", "Marowak"]
+  },
+                "Level3":{
+                    "monsters":["Machamp"]
+  },
+                "Level2":{
+                    "monsters":["Mawile"]
+  },
+                "Level1":{
+                    "monsters":["Shinx"]
+}
+}
+}
+}

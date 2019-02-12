@@ -1,0 +1,13 @@
+{
+  "eggs":{
+          "enabled":true,
+          "defaults":{
+          },
+          "filters":{
+                "Level5Eggs":{
+                    "min_egg_lvl": "5",
+                    "max_egg_lvl": "5"
+}
+          }
+  }
+}

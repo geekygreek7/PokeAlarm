@@ -1,0 +1,317 @@
+{
+    "monsters":{
+        "enabled": true,
+        "defaults": {
+        },
+    "filters": {
+		"GL-Azumarill": {
+			"monsters": ["Azumarill"],
+                "min_atk": 8,
+				"max_atk": 8,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1500,
+				"is_missing_info": false
+			},
+		"GL-Marill": {
+			"monsters": ["Marill"],
+                "min_atk": 8,
+				"max_atk": 8,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 399,
+				"is_missing_info": false
+			},
+		"GL-Eevee": {
+			"monsters": ["Eevee"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 735,
+				"is_missing_info": false
+            },
+		"GL-Swablu": {
+			"monsters": ["Swablu"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 14,
+				"max_sta": 14,
+				"max_cp": 568,
+				"is_missing_info": false
+            },
+		"GL-Horsea": {
+			"monsters": ["Horsea"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 13,
+				"max_sta": 13,
+				"max_cp": 576,
+				"is_missing_info": false
+            },
+		"GL-Seadra": {
+			"monsters": ["Seadra"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 13,
+				"max_sta": 13,
+				"max_cp": 1182,
+				"is_missing_info": false
+            },
+		"GL-Onix": {
+			"monsters": ["Onix"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 14,
+				"max_sta": 14,
+				"max_cp": 639,
+				"is_missing_info": false
+            },
+		"GL-Shroomish": {
+			"monsters": ["Shroomish"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 11,
+				"max_def": 11,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 407,
+				"is_missing_info": false			
+			},
+		"GL-Meditite": {
+			"monsters": ["Meditite"],
+                "min_atk": 15,
+				"max_atk": 15,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 693,
+				"is_missing_info": false			
+			},
+		"GL-Skarmory": {
+			"monsters": ["Skarmory"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 14,
+				"max_sta": 14,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Chinchou": {
+			"monsters": ["Chinchou"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 2,
+				"max_def": 2,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 764,
+				"is_missing_info": false			
+			},
+		"GL-Lanturn": {
+			"monsters": ["Lanturn"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 2,
+				"max_def": 2,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1498,
+				"is_missing_info": false			
+			},
+		"GL-Barboach": {
+			"monsters": ["Barboach"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 8,
+				"max_def": 8,
+				"min_sta": 14,
+				"max_sta": 14,
+				"max_cp": 438,
+				"is_missing_info": false			
+			},
+		"GL-Whiscash": {
+			"monsters": ["Whiscash"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 8,
+				"max_def": 8,
+				"min_sta": 14,
+				"max_sta": 14,
+				"max_cp": 1499,
+				"is_missing_info": false			
+			},
+		"GL-HootHoot": {
+			"monsters": ["HootHoot"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 450,
+				"is_missing_info": false			
+			},
+		"GL-Noctowl": {
+			"monsters": ["Noctowl"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1494,
+				"is_missing_info": false			
+			},
+		"GL-Lapras": {
+			"monsters": ["Lapras"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 11,
+				"max_def": 11,
+				"min_sta": 13,
+				"max_sta": 13,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Wooper": {
+			"monsters": ["Wooper"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 4,
+				"max_def": 4,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1499,
+				"is_missing_info": false			
+			},
+		"GL-Quagsire": {
+			"monsters": ["Quagsire"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 4,
+				"max_def": 4,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1499,
+				"is_missing_info": false			
+			},
+		"GL-Roselia": {
+			"monsters": ["Roselia"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 2,
+				"max_sta": 2,
+				"max_cp": 922,
+				"is_missing_info": false			
+			},
+		"GL-Sudowoodo": {
+			"monsters": ["Sudowoodo"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 10,
+				"max_sta": 10,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Hitmontop": {
+			"monsters": ["Hitmontop"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 9,
+				"max_sta": 9,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Stunky": {
+			"monsters": ["Stunky"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 10,
+				"max_def": 10,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 699,
+				"is_missing_info": false			
+			},
+		"GL-Skuntank": {
+			"monsters": ["Skuntank"],
+                "min_atk": 0,
+				"max_atk": 0,
+				"min_def": 10,
+				"max_def": 10,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Tentacool": {
+			"monsters": ["Tentacool"],
+                "min_atk": 1,
+				"max_atk": 1,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 611,
+				"is_missing_info": false			
+			},
+		"GL-Tentacruel": {
+			"monsters": ["Tentacruel"],
+                "min_atk": 1,
+				"max_atk": 1,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			},
+		"GL-Pineco": {
+			"monsters": ["Pineco"],
+                "min_atk": 1,
+				"max_atk": 1,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 701,
+				"is_missing_info": false			
+			},
+		"GL-Forretress": {
+			"monsters": ["Forretress"],
+                "min_atk": 1,
+				"max_atk": 1,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1500,
+				"is_missing_info": false			
+			}
+        }
+    }
+}

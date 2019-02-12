@@ -1,0 +1,16 @@
+{
+  "discord_alarm":{
+    "active":true,
+    "type":"discord",
+		"webhook_url":"<discord channel ID>",
+			"startup_message":false,
+			"raids":
+			{
+					"username":"<form_or_empty> <mon_name> Raid!",
+					"icon_url" : "<gym_image>",
+					"title": "<mon_name> - <gym_name> in <city>",
+					"url": "<gmaps>",
+					"body": "<mon_name> raid boss has spawned! \n**Tier:** <raid_lvl> \n**Type:** <types> \n**Move Set:** <quick_move> (*<quick_type>*) / <charge_move> (*<charge_type>*) \n**Controlled by team:** <team_name> \n **Max CP at 100iv:** <max_cp> \n\n**Available until:** <12h_raid_end> (<raid_time_left> remaining) \n \n**Location:** <address> <city> <postal> \n**Map Links:** [[Apple Maps]](<applemaps>) - [[Google Maps]](<gmaps>)"
+			}
+		}
+}

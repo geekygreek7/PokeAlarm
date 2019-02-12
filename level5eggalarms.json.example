@@ -1,0 +1,23 @@
+{
+  "discord_alarm":{
+    "active":true,
+    "type":"discord",
+		"webhook_url":"<discord channel id>",
+			"startup_message":false,
+			"eggs":
+			{
+					"username":"<egg_lvl> Egg!",
+					"icon_url" : "<gym_image>",
+					"title": "A <egg_lvl> egg is about to hatch in <city> at <12h_hatch_time>",
+					"url": "<gmaps>",
+					"body": "A <egg_lvl> egg is hatching in <hatch_time_left> at <gym_name>! \n\n**Controlled by team:** <team_name> \n \n**Location:** <address> <city> <postal> \n**Map Links:** [[Apple Maps]](<applemaps>) - [[Google Maps]](<gmaps>)",
+                			"map":	{
+							"enabled":"true",
+							"width":"250",
+							"height":"125",
+							"maptype":"roadmap",
+							"zoom":"15"
+							}
+      	}
+		}
+}

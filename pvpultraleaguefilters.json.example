@@ -1,0 +1,42 @@
+{
+    "monsters":{
+        "enabled": true,
+        "defaults": {
+        },
+    "filters": {
+		"UL-Horsea": {
+			"monsters": ["Horsea"],
+                "min_atk": 3,
+				"max_atk": 3,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 968,
+				"is_missing_info": false
+			},
+		"UL-Seadra": {
+			"monsters": ["Seadra"],
+                "min_atk": 3,
+				"max_atk": 3,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 1969,
+				"is_missing_info": false
+            },
+		"UL-Lapras": {
+			"monsters": ["Lapras"],
+                "min_atk": 5,
+				"max_atk": 5,
+				"min_def": 15,
+				"max_def": 15,
+				"min_sta": 15,
+				"max_sta": 15,
+				"max_cp": 2494,
+				"is_missing_info": false
+            }
+        }
+    }
+}

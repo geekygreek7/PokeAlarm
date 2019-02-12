@@ -1,0 +1,12 @@
+{
+  "raids":{
+          "enabled":true,
+          "defaults":{
+          },
+          "filters":{
+                "Level5":{
+                    "monsters":["Mewtwo", "Kyogre", "Lugia", "Ho-oh", "Rayquaza", "Groudon", "Deoxys", "Giratina", "Cresselia", "Heatran", "Palkia"]
+}
+          }
+  }
+}

@@ -1,0 +1,25 @@
+# Python
+env
+venv
+*.pyc
+
+# IDEs
+.idea
+.vs/*
+
+# sphinx
+_build
+
+# Config
+*.json
+*.ini
+*.txt
+!data/*.json
+!locales/*.json
+
+# Runtime
+cache/*
+logs/*
+
+# MacOS
+.DS_Store

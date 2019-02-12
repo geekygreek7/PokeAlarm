@@ -1,0 +1,14 @@
+{
+    "monsters":{
+        "enabled": true,
+        "defaults": {
+        },
+    "filters": {
+		"rare": {
+			"monsters": ["Venusaur","Charizard","Blastoise","Raichu","Machamp","Golem","Exeggutor","Lickitung","Rhydon","Chansey","Tangela","Gyarados","Lapras","Vaporeon","Jolteon","Flareon","Porygon","Omastar","Aerodactyl","Snorlax","Dragonair","Dragonite","Meganium","Typhlosion","Feraligatr","Togetic","Ampharos","Unown","Piloswine","Hitmontop","Blissey","Pupitar","Tyranitar","Chimecho","Shelgon","Metang","Hariyama","Vibrava","Grotle","Monferno","Prinplup","Drapion","Toxicroak","Bronzong","Lumineon","Glameow","Purugly","Cranidos","Rampardos","Shieldon","Bastiodon","Combee","Vespiquen"],
+                "min_lvl": 1,
+				"is_missing_info": false
+            }
+        }
+    }
+}
