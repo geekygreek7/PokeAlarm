@@ -16,10 +16,11 @@ Aside from that there are edits from the original branch that make it possible t
 -PokeAlarm/Events/MonEvent.py  
 -PokeAlarm/Manager.py  
 
-**compared to the original branch, this enables IVs to work as well as TTH verified info to post via your alarm**
+*....compared to the original branch, this enables IVs to work as well as TTH verified info to post via your alarm*
 
-You can see an example here:
-![Example](https://i.imgur.com/n9ZPGra.png)  
+You can see an example here:  
+![Example](https://i.imgur.com/yH88PQx.png)  
+
 
 ## How to Install:
 1. brew install python@2 (v2.7 - if you don't have it already)  
