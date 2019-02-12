@@ -6,8 +6,23 @@
 
 PokeAlarm is a highly configurable application that filters and relays alerts about PokemonGo to your favorite online service, allowing you to be first to know of any rare spawns or raids.
 
-### Patch Notes
-Recently updated? Make sure to check out the [Patch Notes](https://github.com/PokeAlarm/PokeAlarm/wiki/patch-notes) to help you get caught up on what has changed between versions.
+### Patch Notes - What's in this specific fork?
+Excuse my mess as this is my first fork and really my first git repo I've ever done. 
+This version of PokeAlarm is my own optimized version for RDM and includes some of my current alarms and filter examples that many have asked for (including the great league and ultra league filters). Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:
+-data/base_stats.json
+-locales/en.json
+-PokeAlarm/Events/MonEvent.py
+-PokeAlarm/Manager.py
+
+## How to Install:
+1. brew install python@2 (if you don't have it already)
+2. pip2.7 install -r requirements.txt --upgrade
+3, Edit your config file and rename it 'config.ini'. (This includes creating your specific alarms/filters and adding them to your config, editing the geofence.txt file if you decide to use a geofence, etc).
+
+That's it! 
+
+
+
 
 ## What exactly is PokeAlarm?
 PokeAlarm is an easy to use yet highly configurable webserver designed to receive webhook data (via POST requests) from a scanner. PokeAlarm then filters data, and relays it into one of your favorite online services such as Discord, Twitter, and more. With PokeAlarm, you'll instantly know about every rare spawn or legendary raid that spawns on your scanners. It's highly configurable, allowing the user to define custom messages and filter alerts based on numerous criteria.
@@ -17,7 +32,7 @@ PokeAlarm is an easy to use yet highly configurable webserver designed to receiv
 #### Wiki
 Head on over to the [**PokeAlarm Wiki**](http://pa.readthedocs.io/en/master/) to find detailed instructions on setting up and configuring PokeAlarm. You can find the table of contents on the right!
 
-#### Discord
+#### PokeAlarm Discord
 Before visiting your discord channel, check both the [Wiki](http://pa.readthedocs.io/en/master/) and the [FAQ](https://github.com/PokeAlarm/PokeAlarm/wiki/faq). If you still can't find what you are looking for, try our [**Discord channel**](https://discord.gg/S2BKC7p) - but make sure you read the **#rules** channel or risk getting banned!
 
 #### Github
