@@ -8,7 +8,9 @@ PokeAlarm is a highly configurable application that filters and relays alerts ab
 
 ### What's in this specific fork?
 Excuse my mess as this is my first fork and really my first git repo I've ever done. 
-This version of PokeAlarm is my own optimized version for RDM and includes some of my current alarms and filter examples that many have asked for (including the great league and ultra league filters). Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:
+This version of PokeAlarm is my own optimized version for RDM and includes some of my current alarms and filter examples that many have asked for (including the great league and ultra league filters). 
+
+Aside from that there are edits from the original branch that make it possible to work with RDM including edits to the following files:
 -data/base_stats.json
 -locales/en.json
 -PokeAlarm/Events/MonEvent.py
