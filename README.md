@@ -4,7 +4,7 @@
 ![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
 ![license](https://img.shields.io/github/license/PokeAlarm/PokeAlarm.svg)
 
-PokeAlarm is a highly configurable application that filters and relays alerts about PokemonGo to your favorite online service, allowing you to be first to know of any rare spawns or raids.
+PokeAlarm is a highly configurable application that filters and relays alerts about Pokemon Go to your favorite online service, allowing you to be first to know of any rare spawns or raids.
 
 ### What's in this specific fork?
 Excuse my mess as this is my first fork and really my first git repo I've ever done. 
