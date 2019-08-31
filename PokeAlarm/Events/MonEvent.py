@@ -9,7 +9,7 @@ from PokeAlarm.Utils import (
     get_move_duration, get_move_energy, get_pokemon_size,
     get_applemaps_link, get_time_as_str, get_seconds_remaining,
     get_base_types, get_dist_as_str, get_weather_emoji,
-    get_type_emoji, get_waze_link)
+    get_type_emoji, get_waze_link, get_verified_emoji)
 from . import BaseEvent
 
 
@@ -35,7 +35,9 @@ class MonEvent(BaseEvent):
         self.spawn_end = check_for_none(
             int, data.get('spawn_end'), Unknown.REGULAR)
         self.spawn_verified = check_for_none(bool, data.get('disappear_time_verified'), False)
-
+        self.verified_id = check_for_none(
+            int, data.get('disappear_time_verified'), Unknown.TINY)
+        
         # Location
         self.lat = float(data['latitude'])
         self.lng = float(data['longitude'])
@@ -154,6 +156,8 @@ class MonEvent(BaseEvent):
             'spawn_start': self.spawn_start,
             'spawn_end': self.spawn_end,
             'spawn_verified': self.spawn_verified,
+            'verified_id': self.verified_id,
+            'verified_emoji': get_verified_emoji(self.verified_id),
 
             # Location
             'lat': self.lat,
@@ -223,6 +227,7 @@ class MonEvent(BaseEvent):
             'form': form_name,
             'form_or_empty': Unknown.or_empty(form_name),
             'form_id': self.form_id,
+            'form_id_2': "{:02d}".format(self.form_id),
             'form_id_3': "{:03d}".format(self.form_id),
 
             # Costume
