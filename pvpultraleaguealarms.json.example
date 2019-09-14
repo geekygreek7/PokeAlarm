@@ -1,0 +1,23 @@
+{
+  "discord_alarm":{
+    "active":true,
+    "type":"discord",
+    "webhook_url": "",
+    			"startup_message":false,
+	"monsters":{
+					"username":"<form_or_empty> <mon_name> - <city>",
+			        "icon_url":"",
+			        "avatar_url":"",
+					"title": "<gender> <form_or_empty> <mon_name> in <city>",
+					"url": "<gmaps>",
+					"body": "**IV:** <iv_0>% A(<atk>)/D(<def>)/S(<sta>) \n**CP:** <cp> (Level <mon_lvl>) \n **Action:** <note> \n **Type:** <types> <types_emoji> \n**Move Set:** <quick_move> <quick_type_emoji> / <charge_move> <charge_type_emoji> \n**Boosted by:** <weather> <weather_emoji> \n \n---------------- \n**Despawn Time:** <12h_time> (<time_left> remaining) \n**Verified Despawn Time?:** <spawn_verified> \n**Location:** <address> <city> <postal> \n**Map Links:** [[Apple Maps]](<applemaps>) - [[Google Maps]](<gmaps>) \n",
+					"map":	{
+							"enabled":"true",
+							"width":"250",
+							"height":"125",
+							"maptype":"roadmap",
+							"zoom":"15"
+							}
+			}
+		}
+}

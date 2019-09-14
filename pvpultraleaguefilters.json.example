@@ -1,42 +1,4698 @@
 {
-    "monsters":{
-        "enabled": true,
-        "defaults": {
-        },
+  "monsters": {
+    "enabled": true,
+    "defaults": {},
     "filters": {
-		"UL-Horsea": {
-			"monsters": ["Horsea"],
-                "min_atk": 3,
-				"max_atk": 3,
-				"min_def": 15,
-				"max_def": 15,
-				"min_sta": 15,
-				"max_sta": 15,
-				"max_cp": 968,
-				"is_missing_info": false
-			},
-		"UL-Seadra": {
-			"monsters": ["Seadra"],
-                "min_atk": 3,
-				"max_atk": 3,
-				"min_def": 15,
-				"max_def": 15,
-				"min_sta": 15,
-				"max_sta": 15,
-				"max_cp": 1969,
-				"is_missing_info": false
-            },
-		"UL-Lapras": {
-			"monsters": ["Lapras"],
-                "min_atk": 5,
-				"max_atk": 5,
-				"min_def": 15,
-				"max_def": 15,
-				"min_sta": 15,
-				"max_sta": 15,
-				"max_cp": 2494,
-				"is_missing_info": false
-            }
-        }
-    }
+      "UL-Shelmet": {
+        "monsters": [
+          "Shelmet"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Accelgor": {
+        "monsters": [
+          "Accelgor"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Aipom": {
+        "monsters": [
+          "Aipom"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-squirtle": {
+        "monsters": [
+          "squirtle"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Wartortle": {
+        "monsters": [
+          "Wartortle"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Blastoise": {
+        "monsters": [
+          "Blastoise"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Clefairy": {
+        "monsters": [
+          "Clefairy"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Clefable": {
+        "monsters": [
+          "Clefable"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Corphish": {
+        "monsters": [
+          "Corphish"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Crawdaunt": {
+        "monsters": [
+          "Crawdaunt"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Skorupi": {
+        "monsters": [
+          "Skorupi"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Drapion": {
+        "monsters": [
+          "Drapion"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Buizel": {
+        "monsters": [
+          "Buizel"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Floatzel": {
+        "monsters": [
+          "Floatzel"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Trubbish": {
+        "monsters": [
+          "Trubbish"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Garbodor": {
+        "monsters": [
+          "Garbodor"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Psyduck": {
+        "monsters": [
+          "Psyduck"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Golduck": {
+        "monsters": [
+          "Golduck"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Clamperl": {
+        "monsters": [
+          "Clamperl"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO GOREBYSS"}
+      },
+      "UL-Gothita": {
+        "monsters": [
+          "Gothita"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Gothorita": {
+        "monsters": [
+          "Gothorita"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Gothitelle": {
+        "monsters": [
+          "Corphish"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Lickitung": {
+        "monsters": [
+          "Lickitung"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Magnemite.Magneton": {
+        "monsters": [
+          "Magnemite"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO MAGNETON"}
+      },
+      "UL-Magneton.Magneton": {
+        "monsters": [
+          "Magneton"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },
+      "UL-Chikorita": {
+        "monsters": [
+          "Chikorita"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Bayleef": {
+        "monsters": [
+          "Bayleef"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Meganium": {
+        "monsters": [
+          "Meganium"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Nidoran♀": {
+        "monsters": [
+          "Nidoran♀"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Nidorina": {
+        "monsters": [
+          "Nidorina"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Nidoqueen": {
+        "monsters": [
+          "Nidoqueen"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Poliwag.Politoed": {
+        "monsters": [
+          "Poliwag"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO POLITOED"}
+      },
+      "UL-Poliwhirl.Politoed": {
+        "monsters": [
+          "Poliwhirl"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO POLITOED"}
+      },
+      "UL-Ponyta": {
+        "monsters": [
+          "Ponyta"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Rapidash": {
+        "monsters": [
+          "Rapidash"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Deerling": {
+        "monsters": [
+          "Magnemite"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Sawsbuck": {
+        "monsters": [
+          "Magnemite"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Venipede": {
+        "monsters": [
+          "Venipede"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-whirlipede": {
+        "monsters": [
+          "whirlipede"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Scolipede": {
+        "monsters": [
+          "Scolipede"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Onix": {
+        "monsters": [
+          "Onix"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Tentacool": {
+        "monsters": [
+          "Tentacool"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Tentacruel": {
+        "monsters": [
+          "Tentacruel"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Croagunk": {
+        "monsters": [
+          "Croagunk"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Toxicroak": {
+        "monsters": [
+          "Toxicroak"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Bellsprout": {
+        "monsters": [
+          "Bellsprout"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Weepinbell": {
+        "monsters": [
+          "Weepinbell"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Victreebel": {
+        "monsters": [
+          "Victreebel"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Zangoose": {
+        "monsters": [
+          "Zangoose"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Blitzle": {
+        "monsters": [
+          "Blitzle"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Zebstrika": {
+        "monsters": [
+          "Zebstrika"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Relicanth": {
+        "monsters": [
+          "Relicanth"
+        ],
+        "min_atk": 13,
+        "max_atk": 13,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Slowpoke": {
+        "monsters": [
+          "Slowpoke"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO EITHER"}
+      },
+      "UL-Slowbro": {
+        "monsters": [
+          "Slowbro"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Shellder": {
+        "monsters": [
+          "Shellder"
+        ],
+        "min_atk": 11,
+        "max_atk": 11,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Cloyster": {
+        "monsters": [
+          "Cloyster"
+        ],
+        "min_atk": 11,
+        "max_atk": 11,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Sigilyph": {
+        "monsters": [
+          "Sigilyph"
+        ],
+        "min_atk": 11,
+        "max_atk": 11,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Snubbull": {
+        "monsters": [
+          "Snubbull"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Granbull": {
+        "monsters": [
+          "Granbull"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Throh": {
+        "monsters": [
+          "Throh"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-oddish.vileplume": {
+        "monsters": [
+          "oddish"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VILEPLUME"}
+      },
+      "UL-gloom.vileplume": {
+        "monsters": [
+          "gloom"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VILEPLUME"}
+      },
+      "UL-vileplume.vileplume": {
+        "monsters": [
+          "vileplume"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Nidoran♂": {
+        "monsters": [
+          "Nidoran♂"
+        ],
+        "min_atk": 9,
+        "max_atk": 9,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Nidorino": {
+        "monsters": [
+          "Nidorino"
+        ],
+        "min_atk": 9,
+        "max_atk": 9,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Nidoking": {
+        "monsters": [
+          "Nidoking"
+        ],
+        "min_atk": 9,
+        "max_atk": 9,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Kangaskhan": {
+        "monsters": [
+          "Kangaskhan"
+        ],
+        "min_atk": 9,
+        "max_atk": 9,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Sewaddle": {
+        "monsters": [
+          "Sewaddle"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Swadloon": {
+        "monsters": [
+          "Swadloon"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Leavanny": {
+        "monsters": [
+          "Leavanny"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Poliwag.Poliwrath": {
+        "monsters": [
+          "Poliwag"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO POLIWRATH"}
+      },
+      "UL-Poliwhirl.Poliwrath": {
+        "monsters": [
+          "Poliwhirl"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO POLIWRATH"}
+      },
+      "UL-Hitmonlee": {
+        "monsters": [
+          "Hitmonlee"
+        ],
+        "min_atk": 7,
+        "max_atk": 7,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Poliwrath": {
+        "monsters": [
+          "Poliwrath"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Staryu": {
+        "monsters": [
+          "Staryu"
+        ],
+        "min_atk": 7,
+        "max_atk": 7,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Starmie": {
+        "monsters": [
+          "Starmie"
+        ],
+        "min_atk": 7,
+        "max_atk": 7,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Zorua": {
+        "monsters": [
+          "Zorua"
+        ],
+        "min_atk": 7,
+        "max_atk": 7,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Zoroark": {
+        "monsters": [
+          "Zoroark"
+        ],
+        "min_atk": 7,
+        "max_atk": 7,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Lapras": {
+        "monsters": [
+          "Lapras"
+        ],
+        "min_atk": 6,
+        "max_atk": 6,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Tirtouga": {
+        "monsters": [
+          "Tirtouga"
+        ],
+        "min_atk": 5,
+        "max_atk": 5,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Carracosta": {
+        "monsters": [
+          "Carracosta"
+        ],
+        "min_atk": 5,
+        "max_atk": 5,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Misdreavus": {
+        "monsters": [
+          "Misdreavus"
+        ],
+        "min_atk": 5,
+        "max_atk": 5,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Mismagius": {
+        "monsters": [
+          "Mismagius"
+        ],
+        "min_atk": 5,
+        "max_atk": 5,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Tauros": {
+        "monsters": [
+          "Tauros"
+        ],
+        "min_atk": 5,
+        "max_atk": 5,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Horsea": {
+        "monsters": [
+          "Horsea"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Seadra": {
+        "monsters": [
+          "Seadra"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Kingdra": {
+        "monsters": [
+          "Kingdra"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Klink": {
+        "monsters": [
+          "Klink"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Klang": {
+        "monsters": [
+          "Klang"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Klinklang": {
+        "monsters": [
+          "Klinklang"
+        ],
+        "min_atk": 4,
+        "max_atk": 4,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Cubchoo": {
+        "monsters": [
+          "Cubchoo"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Beartic": {
+        "monsters": [
+          "Beartic"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Zubat": {
+        "monsters": [
+          "Zubat"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Golbat": {
+        "monsters": [
+          "Golbat"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Crobat": {
+        "monsters": [
+          "Crobat"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Houndour": {
+        "monsters": [
+          "Houndour"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Houndoom": {
+        "monsters": [
+          "Houndoom"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Shroomish": {
+        "monsters": [
+          "Shroomish"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Breloom": {
+        "monsters": [
+          "Breloom"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Chansey": {
+        "monsters": [
+          "Chansey"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Blissey": {
+        "monsters": [
+          "Blissey"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Durant": {
+        "monsters": [
+          "Durant"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Trapinch": {
+        "monsters": [
+          "Trapinch"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Vibrava": {
+        "monsters": [
+          "Vibrava"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Flygon": {
+        "monsters": [
+          "Flygon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Gligar": {
+        "monsters": [
+          "Gligar"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Gliscor": {
+        "monsters": [
+          "Gliscor"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Tympole": {
+        "monsters": [
+          "Tympole"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-palpitoad": {
+        "monsters": [
+          "palpitoad"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Seismitoad": {
+        "monsters": [
+          "Seismitoad"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Petilil": {
+        "monsters": [
+          "Petilil"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Lilligant": {
+        "monsters": [
+          "Lilligant"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-jynx": {
+        "monsters": [
+          "jynx"
+        ],
+        "min_atk": 11,
+        "max_atk": 11,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Cryogonal": {
+        "monsters": [
+          "Cryogonal"
+        ],
+        "min_atk": 10,
+        "max_atk": 10,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Chimchar": {
+        "monsters": [
+          "Chimchar"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-monferno": {
+        "monsters": [
+          "monferno"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Infernape": {
+        "monsters": [
+          "Infernape"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Munna": {
+        "monsters": [
+          "Munna"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Musharna": {
+        "monsters": [
+          "Musharna"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-spheal": {
+        "monsters": [
+          "spheal"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-sealeo": {
+        "monsters": [
+          "sealeo"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Walrein": {
+        "monsters": [
+          "Walrein"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Scyther.Scyther": {
+        "monsters": [
+          "Scyther"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },
+      "UL-Porygon.Porygon2": {
+        "monsters": [
+          "Porygon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO PORYGON 2"}
+      },
+      "UL-Porygon2.Porygon2": {
+        "monsters": [
+          "Porygon2"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },
+      "UL-Bulbasaur": {
+        "monsters": [
+          "Bulbasaur"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Ivysaur": {
+        "monsters": [
+          "Ivysaur"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Venusaur": {
+        "monsters": [
+          "Venusaur"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Kabuto": {
+        "monsters": [
+          "Kabuto"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Kabutops": {
+        "monsters": [
+          "Kabutops"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Druddigon": {
+        "monsters": [
+          "Druddigon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Murkrow": {
+        "monsters": [
+          "Murkrow"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Honchkrow": {
+        "monsters": [
+          "Honchkrow"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Grimer": {
+        "monsters": [
+          "Grimer"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Muk": {
+        "monsters": [
+          "Muk"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Mienfoo": {
+        "monsters": [
+          "Mienfoo"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Mienshao": {
+        "monsters": [
+          "Mienshao"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Tynamo": {
+        "monsters": [
+          "Tynamo"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Eelektrik": {
+        "monsters": [
+          "Eelektrik"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Eelektross": {
+        "monsters": [
+          "Eelektross"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Pidove": {
+        "monsters": [
+          "Pidove"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Tranquill": {
+        "monsters": [
+          "Tranquill"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Unfezant": {
+        "monsters": [
+          "Unfezant"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Treecko": {
+        "monsters": [
+          "Treecko"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Grovyle": {
+        "monsters": [
+          "Grovyle"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Sceptile": {
+        "monsters": [
+          "Sceptile"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Elgyem": {
+        "monsters": [
+          "Elgyem"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Beheeyem": {
+        "monsters": [
+          "Beheeyem"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Sawk": {
+        "monsters": [
+          "Sawk"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Bouffalant": {
+        "monsters": [
+          "Bouffalant"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },
+      "UL-Omanyte": {
+        "monsters": [
+          "Omanyte"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Omastar": {
+        "monsters": [
+          "Omastar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Aerodactyl": {
+        "monsters": [
+          "Aerodactyl"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT MEGA EVOLVE"}
+      },
+      "UL-Vanillite": {
+        "monsters": [
+          "Vanillite"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Vanillish": {
+        "monsters": [
+          "Vanillish"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Vanilluxe": {
+        "monsters": [
+          "Vanilluxe"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Lillipup": {
+        "monsters": [
+          "Lillipup"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Herdier": {
+        "monsters": [
+          "Herdier"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Stoutland": {
+        "monsters": [
+          "Stoutland"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Makuhita": {
+        "monsters": [
+          "Makuhita"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Hariyama": {
+        "monsters": [
+          "Hariyama"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Oshawott": {
+        "monsters": [
+          "Oshawott"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Dewott": {
+        "monsters": [
+          "Dewott"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Samurott": {
+        "monsters": [
+          "Samurott"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Mareep": {
+        "monsters": [
+          "Mareep"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Flaaffy": {
+        "monsters": [
+          "Flaaffy"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Ampharos": {
+        "monsters": [
+          "Ampharos"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Golett": {
+        "monsters": [
+          "Golett"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Golurk": {
+        "monsters": [
+          "Golurk"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Starly": {
+        "monsters": [
+          "Starly"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Staravia": {
+        "monsters": [
+          "Staravia"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Staraptor": {
+        "monsters": [
+          "Staraptor"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-totodile": {
+        "monsters": [
+          "totodile"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Croconaw": {
+        "monsters": [
+          "Croconaw"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Feraligatr": {
+        "monsters": [
+          "Feraligatr"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Pawniard": {
+        "monsters": [
+          "Pawniard"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Bisharp": {
+        "monsters": [
+          "Bisharp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Krabby": {
+        "monsters": [
+          "Krabby"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Kingler": {
+        "monsters": [
+          "Kingler"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Anorith": {
+        "monsters": [
+          "Anorith"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Armaldo": {
+        "monsters": [
+          "Armaldo"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Torchic": {
+        "monsters": [
+          "Torchic"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Combusken": {
+        "monsters": [
+          "Combusken"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Blaziken": {
+        "monsters": [
+          "Blaziken"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Charmander": {
+        "monsters": [
+          "Charmander"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Charmeleon": {
+        "monsters": [
+          "Charmeleon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Charizard": {
+        "monsters": [
+          "Charizard"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Cyndaquil": {
+        "monsters": [
+          "Cyndaquil"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Quilava": {
+        "monsters": [
+          "Quilava"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Typhlosion": {
+        "monsters": [
+          "Typhlosion"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Piplup": {
+        "monsters": [
+          "Piplup"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 878,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Prinplup": {
+        "monsters": [
+          "Prinplup"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1430,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Empoleon": {
+        "monsters": [
+          "Empoleon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Karrablast": {
+        "monsters": [
+          "Karrablast"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 985,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Escavalier": {
+        "monsters": [
+          "Escavalier"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Eevee.Jolteon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 862,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO JOLTEON"}
+      },
+      "UL-Jolteon": {
+        "monsters": [
+          "Jolteon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Gastly": {
+        "monsters": [
+          "Gastly"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1044,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Haunter": {
+        "monsters": [
+          "Haunter"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1689,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Gengar": {
+        "monsters": [
+          "Gengar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Solosis": {
+        "monsters": [
+          "Solosis"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1142,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Duosion": {
+        "monsters": [
+          "Duosion"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1715,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Reuniclus": {
+        "monsters": [
+          "Reuniclus"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Turtwig": {
+        "monsters": [
+          "Turtwig"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 964,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Grotle": {
+        "monsters": [
+          "Grotle"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1577,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Torterra": {
+        "monsters": [
+          "Torterra"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Eevee.leafeon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 847,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO LEAFEON"}
+      },
+      "UL-Leafeon": {
+        "monsters": [
+          "Leafeon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Geodude": {
+        "monsters": [
+          "Geodude"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1053,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Graveler": {
+        "monsters": [
+          "Graveler"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1577,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Golem": {
+        "monsters": [
+          "Golem"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Teddiursa": {
+        "monsters": [
+          "Teddiursa"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1083,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Ursaring": {
+        "monsters": [
+          "Ursaring"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Mudkip": {
+        "monsters": [
+          "Mudkip"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 904,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Marshtomp": {
+        "monsters": [
+          "Marshtomp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1457,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Swampert": {
+        "monsters": [
+          "Swampert"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Yanma": {
+        "monsters": [
+          "Yanma"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1213,
+        "is_missing_info": false,      
+        "custom_dts":{"note": "EVOLVE"}      
+      },
+      "UL-Yanmega": {
+        "monsters": [
+          "Yanmega"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Pinsir": {
+        "monsters": [
+          "Pinsir"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT MEGA EVOLVE"}
+      },
+      "UL-Aron": {
+        "monsters": [
+          "Aron"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1040,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Lairon": {
+        "monsters": [
+          "Lairon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1682,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Aggron": {
+        "monsters": [
+          "Aggron"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Feebas": {
+        "monsters": [
+          "Feebas"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 161,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Milotic": {
+        "monsters": [
+          "Milotic"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Roselia": {
+        "monsters": [
+          "Roselia"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1541,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Roserade": {
+        "monsters": [
+          "Roserade"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Tepig": {
+        "monsters": [
+          "Tepig"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 853,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-pignite": {
+        "monsters": [
+          "Pignite"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1577,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Emboar": {
+        "monsters": [
+          "Emboar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1577,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Phanpy": {
+        "monsters": [
+          "Phanpy"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 937,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Donphan": {
+        "monsters": [
+          "Donphan"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Scyther.Scizor": {
+        "monsters": [
+          "Scyther"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2243,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Scizor": {
+        "monsters": [
+          "Scizor"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Tangela": {
+        "monsters": [
+          "Tangela"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1827,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"} 
+      },
+      "UL-Tangrowth": {
+        "monsters": [
+          "Tangrowth"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Sneasel": {
+        "monsters": [
+          "Sneasel"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1678,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Weavile": {
+        "monsters": [
+          "Weavile"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Exeggcute": {
+        "monsters": [
+          "Exeggcute"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 914,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"} 
+      },
+      "UL-Exeggutor": {
+        "monsters": [
+          "Exeggutor"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Growlithe": {
+        "monsters": [
+          "Growlithe"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 984,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}    
+      },
+      "UL-Arcanine": {
+        "monsters": [
+          "Arcanine"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Sandile": {
+        "monsters": [
+          "Sandile"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 808,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Krokorok": {
+        "monsters": [
+          "Krokorok"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1125,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Krookodile": {
+        "monsters": [
+          "Krookodile"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Eevee.Flareon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 823,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO FLAREON"}  
+      },
+      "UL-Flareon.Flareon": {
+        "monsters": [
+          "Flareon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Machop": {
+        "monsters": [
+          "Machop"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1001,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Machoke": {
+        "monsters": [
+          "Machoke"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1628,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Machamp": {
+        "monsters": [
+          "Machamp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Hippopotas": {
+        "monsters": [
+          "Hippopotas"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1051,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+      "UL-Hippowdon": {
+        "monsters": [
+          "Hippowdon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Eevee.Vaporeon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 804,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VAPOREON"}    
+      },
+      "UL-Vaporeon.Vaporeon": {
+        "monsters": [
+          "Vaporeon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Abra": {
+        "monsters": [
+          "Abra"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1071,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}    
+      },
+      "UL-Kadabra": {
+        "monsters": [
+          "Kadabra"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1665,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}          
+      },
+      "UL-Alakazam": {
+        "monsters": [
+          "Alakazam"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Rufflet": {
+        "monsters": [
+          "Rufflet"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1166,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Braviary": {
+        "monsters": [
+          "Braviary"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Heracross": {
+        "monsters": [
+          "Heracross"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT MEGA EVOLVE"}
+      },
+      "UL-Ralts": {
+        "monsters": [
+          "Ralts"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 383,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO EITHER"}   
+      },
+      "UL-Kirlia": {
+        "monsters": [
+          "Kirlia"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 730,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO EITHER"}   
+      },
+      "UL-Gallade": {
+        "monsters": [
+          "Gallade"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}        
+      },
+      "UL-Gardevoir": {
+        "monsters": [
+          "Gardevoir"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Electabuzz": {
+        "monsters": [
+          "Electabuzz"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1869,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Electivire": {
+        "monsters": [
+          "Electivire"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}        
+      },
+      "UL-Eevee.Glaceon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 794,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO GLACEON"}  
+      },
+      "UL-Glaceon.Glaceon": {
+        "monsters": [
+          "Glaceon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}       
+      },
+      "UL-Darumaka": {
+        "monsters": [
+          "Darumaka"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1114,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Darmanitan": {
+        "monsters": [
+          "Darmanitan"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}       
+      },
+      "UL-Darmanitan": {
+        "monsters": [
+          "Darmanitan"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Magmar": {
+        "monsters": [
+          "Magmar"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1890,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}    
+      },
+      "UL-Magmortar": {
+        "monsters": [
+          "Magmortar"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}      
+      },
+      "UL-Rhyhorn.Rhydon": {
+        "monsters": [
+          "Rhyhorn"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1250,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO RHYDON"}   
+      },
+      "UL-Rhydon.Rhydon": {
+        "monsters": [
+          "Rhydon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },
+      "UL-Snorlax": {
+        "monsters": [
+          "Snorlax"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Eevee.Espeon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 783,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO ESPEON"} 
+      },
+      "UL-Espeon.Espeon": {
+        "monsters": [
+          "Espeon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}       
+      },
+      "UL-Magnemite.Magnezone": {
+        "monsters": [
+          "Magnemite"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1034,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO MAGNEZONE"}    
+      },
+      "UL-Magneton.Magnezone": {
+        "monsters": [
+          "Magneton"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1930,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO MAGNEZONE"} 
+      },
+      "UL-Magnezone.Magnezone": {
+        "monsters": [
+          "Magnezone"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Roggenrola": {
+        "monsters": [
+          "Roggenrola"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 881,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Boldore": {
+        "monsters": [
+          "Boldore"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1538,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Gigalith": {
+        "monsters": [
+          "Gigalith"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+      "UL-Drilbur": {
+        "monsters": [
+          "Drilbur"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1021,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Excadrill": {
+        "monsters": [
+          "Excadrill"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"} 
+      },
+      "UL-Litwick": {
+        "monsters": [
+          "Litwick"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 712,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Lampent": {
+        "monsters": [
+          "Lampent"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1266,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Chandelure": {
+        "monsters": [
+          "Chandelure"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Porygon": {
+        "monsters": [
+          "Porygon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1263,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Togetic": {
+        "monsters": [
+          "Togetic"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1233,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"} 
+      },
+      "UL-Togekiss": {
+        "monsters": [
+          "Togekiss"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Swinub": {
+        "monsters": [
+          "Swinub"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 504,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Piloswine": {
+        "monsters": [
+          "Piloswine"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1725,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}       
+      },
+      "UL-Mamoswine": {
+        "monsters": [
+          "Mamoswine"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}  
+      },
+      "UL-Timburr": {
+        "monsters": [
+          "Timburr"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 939,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}        
+      },
+      "UL-Gurdurr": {
+        "monsters": [
+          "Gurdurr"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1591,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Conkeldurr": {
+        "monsters": [
+          "Conkeldurr"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Cranidos": {
+        "monsters": [
+          "Cranidos"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1354,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Rampardos": {
+        "monsters": [
+          "Rampardos"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}  
+      },
+      "UL-Archen": {
+        "monsters": [
+          "Archen"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1358,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}         
+      },
+      "UL-Archeops": {
+        "monsters": [
+          "Archeops"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Magikarp": {
+        "monsters": [
+          "Magikarp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 141,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}    
+      },
+      "UL-Gyarados": {
+        "monsters": [
+          "Gyarados"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Axew": {
+        "monsters": [
+          "Axew"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 914,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Fraxure": {
+        "monsters": [
+          "Fraxure"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1527,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Haxorus": {
+        "monsters": [
+          "Haxorus"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Haxorus": {
+        "monsters": [
+          "Haxorus"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}    
+      },
+      "UL-Deino": {
+        "monsters": [
+          "Deino"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 685,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}  
+      },
+      "UL-Zweilous": {
+        "monsters": [
+          "Zweilous"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1224,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Hydreigon": {
+        "monsters": [
+          "Hydreigon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Larvesta": {
+        "monsters": [
+          "Larvesta"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 991,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Volcarona": {
+        "monsters": [
+          "Volcarona"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}  
+      },
+      "UL-Rhyhorn.Rhyperior": {
+        "monsters": [
+          "Rhyhorn"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1059,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}    
+      },
+      "UL-Rhydon.Rhyperior": {
+        "monsters": [
+          "Rhydon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 2117,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}       
+      },
+      "UL-Bagon": {
+        "monsters": [
+          "Bagon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 733,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}       
+      },
+      "UL-Shelgon": {
+        "monsters": [
+          "Shelgon"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1315,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Salamence": {
+        "monsters": [
+          "Salamence"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"} 
+      },
+      "UL-Beldum": {
+        "monsters": [
+          "Beldum"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 586,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}       
+      },
+      "UL-Metang": {
+        "monsters": [
+          "Metang"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1080,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Metagross": {
+        "monsters": [
+          "Metagross"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}  
+      },
+      "UL-Dratini": {
+        "monsters": [
+          "Dratini"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 618,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Dragonair": {
+        "monsters": [
+          "Dragonair"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1133,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}      
+      },
+      "UL-Dragonite": {
+        "monsters": [
+          "Dragonite"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Larvitar": {
+        "monsters": [
+          "Larvitar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 629,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}      
+      },
+      "UL-Pupitar": {
+        "monsters": [
+          "Pupitar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 1107,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Tyranitar": {
+        "monsters": [
+          "Tyranitar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 11,
+        "max_sta": 11,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}   
+      },
+      "UL-Gible": {
+        "monsters": [
+          "Gible"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 659,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}     
+      },
+      "UL-Gabite": {
+        "monsters": [
+          "Gabite"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1147,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}        
+      },
+      "UL-Garchomp": {
+        "monsters": [
+          "Garchomp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}     
+      },
+      "UL-Slakoth": {
+        "monsters": [
+          "Slakoth"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 11,
+        "max_def": 11,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 515,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}        
+      },
+      "UL-Vigoroth": {
+        "monsters": [
+          "Vigoroth"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 11,
+        "max_def": 11,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1065,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}   
+      },
+      "UL-Slaking": {
+        "monsters": [
+          "Slaking"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 11,
+        "max_def": 11,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}        
+      },
+      "UL-A.Sandshrew": {
+        "monsters": [
+          "Sandshrew"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE IF ALOLAN"}     
+      },
+      "UL-A.Sandslash": {
+        "monsters": [
+          "Sandslash"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED CATCH IF ALOLAN"}       
+      },
+      "UL-Absol": {
+        "monsters": [
+          "Absol"
+        ],
+        "min_atk": 14,
+        "max_atk": 14,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE. DO NOT MEGA EVOLVE"}  
+}
+}
+}
 }
