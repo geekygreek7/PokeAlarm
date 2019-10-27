@@ -24,7 +24,8 @@ class MonEvent(BaseEvent):
         # Identification
         self.enc_id = data['encounter_id']
         self.monster_id = int(data['pokemon_id'])
-        self.display_id = int(data['display_pokemon_id'])
+        self.display_id = check_for_none(
+            int, data.get('display_pokemon_id'), Unknown.TINY)
 
         # Time Left
         self.disappear_time = datetime.utcfromtimestamp(data['disappear_time'])
