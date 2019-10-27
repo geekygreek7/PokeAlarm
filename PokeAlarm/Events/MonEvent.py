@@ -24,6 +24,7 @@ class MonEvent(BaseEvent):
         # Identification
         self.enc_id = data['encounter_id']
         self.monster_id = int(data['pokemon_id'])
+        self.display_id = int(data['display_pokemon_id'])
 
         # Time Left
         self.disappear_time = datetime.utcfromtimestamp(data['disappear_time'])
@@ -144,8 +145,10 @@ class MonEvent(BaseEvent):
             # Identification
             'encounter_id': self.enc_id,
             'mon_name': locale.get_pokemon_name(self.monster_id),
+            'display_name': locale.get_pokemon_name(self.display_id),
             'mon_id': self.monster_id,
             'mon_id_3': "{:03}".format(self.monster_id),
+            'display_id_3': "{:03}".format(self.display_id),
 
             # Time Remaining
             'time_left': time[0],
