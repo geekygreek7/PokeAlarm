@@ -4691,7 +4691,35 @@
         "max_sta": 15,
         "max_cp": 2500,
         "is_missing_info": false,
-        "custom_dts":{"note": "NO EVOLVE. DO NOT MEGA EVOLVE"}  
+        "custom_dts":{"note": "NO EVOLVE. DO NOT MEGA EVOLVE"} 
+      },		
+	  "UL-seedot": {
+        "monsters": [
+          "Seedot"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },
+	  "UL-nuzleaf": {
+        "monsters": [
+          "Nuzleaf"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
 }
 }
 }

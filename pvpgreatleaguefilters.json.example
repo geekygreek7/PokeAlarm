@@ -4955,8 +4955,8 @@
         "max_atk": 0,
         "min_def": 14,
         "max_def": 14,
-        "min_sta": 15,
-        "max_sta": 15,
+        "min_sta": 14,
+        "max_sta": 14,
         "max_cp": 1500,
         "is_missing_info": false,
         "custom_dts":{"note": "NO EVOLVE"}
@@ -9459,7 +9459,1295 @@
         "max_cp": 1500,
         "is_missing_info": false,
         "custom_dts":{"note": "NO EVOLVE. DO NOT MEGA EVOLVE"}           
-		}
+		},
+    "GL-Darmanitan.z.darumaka": {
+        "monsters": [
+          "Darumaka"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 557,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE to Zen Mode"}
+      },
+    "GL-Chespin.Quiladin": {
+        "monsters": [
+          "Chespin"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 933,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE to Quilladin"}
+      },
+    "GL-Quilladin.Quilladin": {
+        "monsters": [
+          "Quilladin"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },
+    "GL-Chespin.Chesnaught": {
+        "monsters": [
+          "Chespin"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 528,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO CHESNAUGHT"}
+      },      
+    "GL-Quilladin.Chesnaught": {
+        "monsters": [
+          "Quilladin"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 846,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO CHESNAUGHT"}
+      },   
+    "GL-Chesnaught.Chesnaught": {
+        "monsters": [
+          "Chesnaught"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },
+    "GL-Fennekin.Braixen": {
+        "monsters": [
+          "Fennekin"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 819,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO BRAIXEN"}
+      },   
+    "GL-Braixen.Braixen": {
+        "monsters": [
+          "Braixen"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },  
+    "GL-Fennekin.Delphox": {
+        "monsters": [
+          "Fennekin"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 475,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO DELPHOX"}
+      }, 
+    "GL-Braixen.Delphox": {
+        "monsters": [
+          "Braixen"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 872,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO DELPHOX"}
+      }, 
+    "GL-Delphox.Delphox": {
+        "monsters": [
+          "Delphox"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Froakie.Frogadier": {
+        "monsters": [
+          "Froakie"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 885,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO FROGADIER"}
+    },      
+    "GL-Frogadier.Frogadier": {
+        "monsters": [
+          "Frogadier"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}    
+    },      
+    "GL-Froakie.Greninja": {
+        "monsters": [
+          "Froakie"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 537,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO Greninja"}        
+      },      
+    "GL-Frogadier.Greninja": {
+        "monsters": [
+          "Frogadier"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 909,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO Greninja"}        
+      },       
+    "GL-Greninja.Greninja": {
+        "monsters": [
+          "Greninja"
+        ],
+        "min_atk": 3,
+        "max_atk": 3,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}        
+      },   
+    "GL-Bunnelby": {
+        "monsters": [
+          "Bunnelby"
+        ],
+        "min_atk": 14,
+        "max_atk": 14,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },   
+    "GL-Diggersby": {
+        "monsters": [
+          "Diggersby"
+        ],
+        "min_atk": 14,
+        "max_atk": 14,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Fletchling": {
+        "monsters": [
+          "Fletchling"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 506,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO TALONFLAME"}
+      },    
+    "GL-Fletchinder": {
+        "monsters": [
+          "Fletchinder"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 978,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO TALONFLAME"}
+      },   
+    "GL-Talonflame": {
+        "monsters": [
+          "Talonflame"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Scatterbug": {
+        "monsters": [
+          "Scatterbug"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 348,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VIVILLON"}
+      },     
+    "GL-Spewpa": {
+        "monsters": [
+          "Spewpa"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 320,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VIVILLON"}
+      },  
+    "GL-Vivillon": {
+        "monsters": [
+          "Vivillon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO VIVILLON"}
+      },       
+    "GL-Litleo": {
+        "monsters": [
+          "Litleo"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 10,
+        "max_sta": 10,
+        "max_cp": 742,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },      
+    "GL-Pyroar": {
+        "monsters": [
+          "Pyroar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 10,
+        "max_sta": 10,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Flabébé.Floette": {
+        "monsters": [
+          "Flabébé"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1033,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO FLOETTE"}
+      },  
+    "GL-Floette.Floette": {
+        "monsters": [
+          "Floette"
+        ],
+        "min_atk": 12,
+        "max_atk": 12,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },      
+    "GL-Flabébé.Florges": {
+        "monsters": [
+          "Flabébé"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 461,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO FLORGES"}
+      },    
+    "GL-Floette.Florges": {
+        "monsters": [
+          "Floette"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 683,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO FLORGES"}
+      },   
+    "GL-Florges.Florges": {
+        "monsters": [
+          "Florges"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Skiddo": {
+        "monsters": [
+          "Skiddo"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 647,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },      
+    "GL-Gogoat": {
+        "monsters": [
+          "Gogoat"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },       
+    "GL-pancham.pancham": {
+        "monsters": [
+          "Pancham"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },    
+    "GL-pancham.pancham": {
+        "monsters": [
+          "Pancham"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },    
+    "GL-pancham.pangoro": {
+        "monsters": [
+          "Pancham"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 745,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },  
+    "GL-pangoro.pangoro": {
+        "monsters": [
+          "Pangoro"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Furfrou": {
+        "monsters": [
+          "Furfrou"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "NO EVOLVE"}
+      },   
+    "GL-Espurr": {
+        "monsters": [
+          "Espurr"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 860,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },     
+    "GL-Meowstic": {
+        "monsters": [
+          "Meowstic"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Honedge.doublade": {
+        "monsters": [
+          "Honedge"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 11,
+        "max_def": 11,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 826,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO DOUBLADE"}
+      },   
+    "GL-Honedge.doublade": {
+        "monsters": [
+          "doublade"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 11,
+        "max_def": 11,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },      
+    "GL-Honedge.aaegislash": {
+        "monsters": [
+          "Honedge"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 748,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO ATTACK AEGISLASH"}
+      },
+    "GL-doublade.aaegislash": {
+        "monsters": [
+          "Doublade"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1354,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO ATTACK AEGISLASH"}
+      }, 
+    "GL-Aegislash.aaegislash": {
+        "monsters": [
+          "Aegislash"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY ATTACK FORM"}
+      },      
+    "GL-Honedge.daegislash": {
+        "monsters": [
+          "Honedge"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1325,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO SHIELD AEGISLASH"}
+      },  
+    "GL-doublade.daegislash": {
+        "monsters": [
+          "Doublade"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 2358,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO SHIELD AEGISLASH"}
+      }, 
+    "GL-aegislash.daegislash": {
+        "monsters": [
+          "Aegislash"
+        ],
+        "min_atk": 8,
+        "max_atk": 8,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY SHIELD FORM"}
+      },   
+    "GL-spritzee": {
+        "monsters": [
+          "Spritzee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 765,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },   
+    "GL-Aromatisse": {
+        "monsters": [
+          "Aromatisse"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Swirlix": {
+        "monsters": [
+          "Swirlix"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 771,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },    
+    "GL-Slurpuff": {
+        "monsters": [
+          "Slurpuff"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Inkay": {
+        "monsters": [
+          "Inkay"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 9,
+        "max_sta": 9,
+        "max_cp": 552,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },     
+    "GL-Malamar": {
+        "monsters": [
+          "Malamar"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 9,
+        "max_sta": 9,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },     
+    "GL-Binacle": {
+        "monsters": [
+          "Binacle"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 10,
+        "max_def": 10,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 489,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },      
+    "GL-Barbaracle": {
+        "monsters": [
+          "Barbaracle"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 10,
+        "max_def": 10,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },     
+    "GL-Skrelp": {
+        "monsters": [
+          "Skrelp"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 636,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },      
+    "GL-Dragalge": {
+        "monsters": [
+          "Dragalge"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },     
+    "GL-Clauncher": {
+        "monsters": [
+          "Clauncher"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 551,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },     
+    "GL-Clawitzer": {
+        "monsters": [
+          "Clawitzer"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 13,
+        "max_def": 13,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },       
+    "GL-Helioptile": {
+        "monsters": [
+          "Helioptile"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 507,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },   
+    "GL-Heliolisk": {
+        "monsters": [
+          "Heliolisk"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },  
+    "GL-Tyrunt": {
+        "monsters": [
+          "Tyrunt"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },  
+    "GL-Tyrunt.Tyrantrum": {
+        "monsters": [
+          "Tyrunt"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 761,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },    
+    "GL-Tyrunt.Tyrantrum": {
+        "monsters": [
+          "Tyrantrum"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },    
+    "GL-Amaura": {
+        "monsters": [
+          "Amaura"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 700,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      }, 
+    "GL-Aurorus": {
+        "monsters": [
+          "Aurorus"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 12,
+        "max_def": 12,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-eevee.sylveon": {
+        "monsters": [
+          "Eevee"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 490,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO SYLVEON"}
+      },  
+    "GL-sylveon.sylveon": {
+        "monsters": [
+          "Sylveon"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },    
+    "GL-Hawlucha": {
+        "monsters": [
+          "Hawlucha"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Dedenne": {
+        "monsters": [
+          "Dedenne"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Carbink": {
+        "monsters": [
+          "Carbink"
+        ],
+        "min_atk": 15,
+        "max_atk": 15,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },     
+    "GL-Goomy.Sliggoo": {
+        "monsters": [
+          "Goomy"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 686,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO SLIGGOO"}
+      },    
+    "GL-Sliggoo.Sliggoo": {
+        "monsters": [
+          "Sliggoo"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "DO NOT EVOLVE"}
+      },    
+    "GL-Goomy.Goodra": {
+        "monsters": [
+          "Goomy"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 389,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO GOODRA"}
+      },   
+    "GL-Sliggoo.Goodra": {
+        "monsters": [
+          "Sliggoo"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 851,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE TO GOODRA"}
+      },    
+    "GL-Goodra.Goodra": {
+        "monsters": [
+          "Goodra"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },   
+    "GL-Klefki": {
+        "monsters": [
+          "Klefki"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },        
+    "GL-Phantump": {
+        "monsters": [
+          "Phantump"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 633,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },    
+    "GL-Trevenant": {
+        "monsters": [
+          "Trevenant"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },      
+    "GL-Pumpkaboo.S": {
+        "monsters": [
+          "Pumpkaboo"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 774,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE ONLY IF SMALL"}
+      },    
+    "GL-Pumpkaboo.A": {
+        "monsters": [
+          "Pumpkaboo"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 737,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE ONLY IF AVERAGE"}
+      }, 
+    "GL-Pumpkaboo.L": {
+        "monsters": [
+          "Pumpkaboo"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 714,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE ONLY IF LARGE"}
+      },   
+    "GL-Pumpkaboo.XL": {
+        "monsters": [
+          "Pumpkaboo"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 685,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE ONLY IF EXXXTRA LARGE"}
+      },  
+    "GL-Gourgeist.S": {
+        "monsters": [
+          "Gourgeist"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 774,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY IF SMALL"}
+      },    
+    "GL-Gourgeist.A": {
+        "monsters": [
+          "Gourgeist"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 13,
+        "max_sta": 13,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY IF AVERAGE"}
+      },  
+    "GL-Gourgeist.L": {
+        "monsters": [
+          "Gourgeist"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 14,
+        "max_def": 14,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY IF LARGE"}
+      },  
+    "GL-Gourgeist.XL": {
+        "monsters": [
+          "Gourgeist"
+        ],
+        "min_atk": 1,
+        "max_atk": 1,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 14,
+        "max_sta": 14,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "ONLY IF EXXXTRA LARGE"}
+      }, 
+    "GL-Bergmite": {
+        "monsters": [
+          "Bergmite"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 547,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },  
+    "GL-Avalugg": {
+        "monsters": [
+          "Avalugg"
+        ],
+        "min_atk": 2,
+        "max_atk": 2,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 15,
+        "max_sta": 15,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      },  
+    "GL-Noibat": {
+        "monsters": [
+          "Noibat"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 327,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVE"}
+      },  
+    "GL-Noivern": {
+        "monsters": [
+          "Noivern"
+        ],
+        "min_atk": 0,
+        "max_atk": 0,
+        "min_def": 15,
+        "max_def": 15,
+        "min_sta": 12,
+        "max_sta": 12,
+        "max_cp": 1500,
+        "is_missing_info": false,
+        "custom_dts":{"note": "EVOLVED"}
+      }        
 }
 }
 }
